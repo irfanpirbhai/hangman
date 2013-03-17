@@ -15,5 +15,4 @@ class HangPlayTest < Test::Unit::TestCase
 		assert !HangmanPlay.input_valid?
 	end
 
-
 end
