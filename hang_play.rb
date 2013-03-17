@@ -28,9 +28,10 @@ class HangmanPlay
 
 	def self.interface_setup
 		loop do
-			puts "*************************"
-			puts "HANGMAN!"
+			system "clear"
+			puts "**********************"
 			puts ""
+			puts "HANGMAN!"
 			puts ""
 			puts @@game.board
 			puts ""
